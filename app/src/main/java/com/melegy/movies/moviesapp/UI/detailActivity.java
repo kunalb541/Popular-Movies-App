@@ -7,7 +7,7 @@ import android.view.MenuItem;
 
 import com.melegy.movies.moviesapp.R;
 
-public class DetailActivity extends ActionBarActivity {
+public class detailActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +17,7 @@ public class DetailActivity extends ActionBarActivity {
         if (savedInstanceState == null) {
             Bundle bundle = new Bundle();
             bundle.putBundle("movie", getIntent().getExtras());
-            DetailActivityFragment detailActivityFragment = new DetailActivityFragment();
+            detailActivityFragment detailActivityFragment = new detailActivityFragment();
             detailActivityFragment.setArguments(bundle);
 
             getSupportFragmentManager().beginTransaction()

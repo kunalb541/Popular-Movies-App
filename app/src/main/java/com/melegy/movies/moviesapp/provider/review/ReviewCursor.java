@@ -7,9 +7,7 @@ import android.support.annotation.Nullable;
 import com.melegy.movies.moviesapp.provider.base.AbstractCursor;
 import com.melegy.movies.moviesapp.provider.movie.MovieColumns;
 
-/**
- * Cursor wrapper for the {@code review} table.
- */
+
 public class ReviewCursor extends AbstractCursor implements ReviewModel {
     public ReviewCursor(Cursor cursor) {
         super(cursor);

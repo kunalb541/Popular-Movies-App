@@ -20,9 +20,6 @@ import com.squareup.picasso.Picasso;
 import java.util.Collection;
 
 
-/**
- * Created by ahmad on 12/08/15.
- */
 public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MoviesViewHolder> {
     OnItemClickListener mItemClickListener;
     private Collection<Movie> movies;
